@@ -1,0 +1,84 @@
+.body{
+background-color: rgb(197, 196, 196);
+}
+/*seccion-encabezado*/
+.contenedor_encabezado{
+display: flex;
+}
+.imagen_estrella{
+width: 50px;
+height: 50px;
+}
+.titulo{
+display: flex;
+margin-left: 0%;
+}
+.navegacion_panel{
+display: flex;
+flex-wrap: wrap;
+}
+.lista-menu{
+margin-left: 50%;
+display: flex;
+}
+.item{
+display: flex;
+margin: 0px 20px 0px 2px;
+}
+.contenedor_imagen{
+display: flex;
+margin-left: 30%;
+border-radius: 180px 180px 180px 180px;
+width: 400px;
+height: 400px;
+}
+.contenedor_contexto{
+display: flex;
+flex-direction: column;
+}
+.descripcion-texto{
+width: 20%;
+margin-left: 5%;
+position: absolute;
+margin-top: 7%;
+font-size: 30px;
+}
+.sobre-mi{
+margin-top: 15%;
+font-size: 30PX;
+font-style: italic;
+}
+.parrafo{
+margin-top: 2%;
+
+}
+/*seccion-hobiess y skills*/
+.skills-hobiess{
+font-size: 45px;
+text-align: center;
+}
+.iconos-lista{
+font-size: 20px;
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+.iconos{
+width: 80px;
+height: 80px;
+margin: 0px 60px 2px 60px;
+border-radius: 10px;
+
+}
+/*ESTYLOS HOVER*/
+.iconos:hover{
+width: 90PX;
+height: 90PX;
+
+}
+.boton-color{
+width: 150px;
+height: 50px;
+padding: 5px 5px 5px 5px;
+}
+

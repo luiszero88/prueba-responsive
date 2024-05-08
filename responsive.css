@@ -1,0 +1,131 @@
+
+@media (max-width: 700px){
+
+    /*seccion de encabezado tablet*/
+    .contenedor_encabezado{
+        display: flex;
+        }
+        .texto_estrella{
+            font-size: 10px;
+        }
+        .imagen_estrella{
+        width: 25px;
+        height: 25px;
+        }
+        .titulo{
+        display: flex;
+        margin-left: 0%;
+        }
+        .navegacion_panel{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .lista-menu{
+        margin-left: 55%;
+        display: flex;
+        width: 140px;
+        }
+        
+        .item{
+        display: flex;
+        margin: 0px 5px 0px 2px;
+        font-size: 10px;
+        }
+        .contenedor_imagen{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        margin-left: 50%;
+        }
+        .contenedor_contexto{
+        display: flex;
+        flex-direction: column;
+        }
+        .descripcion-texto{
+        width: 30%;
+        margin-left: 5%;
+        position: absolute;
+        margin-top: 7%;
+        font-size: 25px;
+        
+        }
+        .sobre-mi{
+            margin-top: 5%;
+            font-size: 20PX;
+            font-style: italic;
+        }
+        .iconos-lista{
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            
+        }
+}
+
+
+@media (max-width: 432px){
+
+    /*seccion de encabezado movil*/
+    .contenedor_encabezado{
+        display: flex;
+        }
+        .texto_estrella{
+            font-size: 10px;
+        }
+        .imagen_estrella{
+        width: 25px;
+        height: 25px;
+        }
+        .titulo{
+        display: flex;
+        margin-left: 0%;
+        }
+        .navegacion_panel{
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .lista-menu{
+        margin-left: 40%;
+        display: flex;
+        }
+        
+        .item{
+        display: flex;
+        margin: 0px 5px 0px 2px;
+        font-size: 10px;
+        }
+        .contenedor_imagen{
+        display: flex;
+        margin-left: 50%;
+        border-radius: 150px 150px 150px 150px;
+        }
+        .contenedor_contexto{
+        display: flex;
+        flex-direction: column;
+        }
+        .descripcion{
+        width: 30%;
+        margin-left: 5%;
+        position: absolute;
+        margin-top: 7%;
+        
+        }
+        .descripcion-texto{
+            width: 30%;
+            margin-left: 5%;
+            position: absolute;
+            margin-top: 7%;
+            font-size: 23px;
+        }
+        .sobre-mi{
+            margin-top: 15%;
+            font-size: 20PX;
+            font-style: italic;
+        }
+        .iconos-lista{
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            
+        }
+}
